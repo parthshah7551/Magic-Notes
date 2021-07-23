@@ -1,0 +1,38 @@
+<style>
+    body {
+        background-color: rgba(128, 128, 128, 0.479);
+    }
+    /* .cardborder {
+        border: 2px solid black;
+    }
+    
+    .wholebox {
+        margin-left: 300px;
+    }
+    
+    .yournote {
+        margin-left: 500px;
+    }
+    
+    .nothing {
+        margin-left: 350px;
+    } */
+</style>
+
+
+<div class="container my-3 ">
+    <h1 class="wholebox">Welcome To Magic Notes</h1>
+    <div class="card cardborder my-3">
+        <div class="card-body">
+            <h5 class="card-title">Add a note</h5>
+            <div class="form-group">
+                <textarea class="form-control" id="addTxt" rows="3"></textarea>
+            </div>
+            <button class="btn btn-primary my-3" id="addBtn">Add Note</button>
+        </div>
+    </div>
+    <hr>
+    <h1 class="yournote">Your Notes</h1>
+    <hr>
+    <div id="notes" class="row container-fluid"> </div>
+</div>
